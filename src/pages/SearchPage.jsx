@@ -65,7 +65,7 @@ export default function SearchPage() {
         }
     }, [debouncedQuery, page, year, fetchMovies]);
 
-    // Infinite scroll logic
+
     const loadMoreRef = useCallback(
         (node) => {
             if (loading) return;
@@ -117,7 +117,7 @@ export default function SearchPage() {
 
             <MovieGrid movies={movies} isLoading={loading && page === 1} />
 
-            {/* Infinite scroll sentinel */}
+
             <div ref={loadMoreRef} style={{ height: '20px' }}></div>
 
             {loading && page > 1 && (
