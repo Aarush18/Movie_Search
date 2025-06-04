@@ -26,5 +26,10 @@ Powered by the **OMDb API** for live movie data.
 - **Vite** for fast development
 - **Deployed with Netlify / Vercel**
 
+- ## 🌐 Live Demo
+
+👉 **[Live Demo](https://moviesearchnf.netlify.app/)**
+
+
 ---
 
