@@ -24,7 +24,7 @@ Powered by the **OMDb API** for live movie data.
 - **Material-UI (MUI)** for styling
 - **OMDb API** for movie data
 - **Vite** for fast development
-- **Deployed with Netlify / Vercel**
+- **Deployed with Netlify**
 
 - ## 🌐 Live Demo
 
